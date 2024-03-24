@@ -1,0 +1,35 @@
+.ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
+    background-color: #544c4c;
+    border-color: #ddd;
+    color: #36171700;
+    text-shadow: 0 1px 0 #eee;
+    font-weight: 700;
+}
+
+.ui-header .ui-title, .ui-footer .ui-title {
+    font-size: 1em;
+    min-height: 1.1em;
+    text-align: left;
+    display: block;
+    margin: 0 0%;
+    padding: .7em 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: 0 !important;
+    position: relative;
+}
+
+.ui-footer .ui-title {
+    font-size: 1em;
+    min-height: 1.1em;
+    text-align: left;
+    display: block;
+    margin: 0 0%;
+    padding: .7em 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: 0 !important;
+    position: relative;
+}

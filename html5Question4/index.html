@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="pageone">
+    <div data-role="header">
+        <h1>Converting fluid measurements</h1>
+    </div>
+
+    <div data-role="main" class="ui-content">
+        <form action="">
+            <label for="gallons">Enter the quantity in gallons:</label><br>
+            <input type="number" data-clear-btn="true"
+                   name="gallons" id="gallons"
+                   value="" placeholder="gallons..."><br>
+            <input type="button" value="Display" id="submit">
+        </form>
+    </div>
+
+    <div data-role="footer">
+        <h1>Fluid quantity converter</h1>
+    </div>
+</div>
+
+</body>
+</html>
